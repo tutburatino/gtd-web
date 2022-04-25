@@ -6,4 +6,5 @@ import body from './body-inner.html'
 export default () => {
   document.title = 'ToDo task manager';
   document.body.outerHTML = body;
+  document.querySelector('input[name="new-task"]').focus();
 };

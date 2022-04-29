@@ -1,61 +1,42 @@
-<body>
-  <div class="container" style="max-width: 768px;">
-    <div class="row">
-        <div class="card">
-          <div class="card-body text-primary">
-            <h5 class="card-title text-center">List №1</h5>
-            <ol id="tasks" class="list-group list-group-flush">
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task one
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task two
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task three
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task four
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task five
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task six
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task seven
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task eight
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task nine
-              </li>
-              <li class="list-group-item list-group-item-primary">
-                <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-                Task ten
-              </li>
-            </ol>
-              <form class="form-inline row g-3">
-                <div class="input-group">
-                  <input name="new-task" type="text" class="form-control" placeholder="New task.." required>
-                  <button class="btn btn-primary" type="submit">Add</button>
-                </div>
-              </form>
-          </div>
-        </div>
+<body class="d-flex flex-column h-100 mx-auto"  style="max-width: 768px;">
+  <div class="flex-shrink-0">
+    <div class="container">
+      <ol id="tasks" class="list-group">
+        <li class="list-group-item list-group-item">
+          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+          Task one
+        </li>
+        <li class="list-group-item list-group-item">
+          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+          Task two
+        </li>
+        <li class="list-group-item list-group">
+          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+          Task three
+        </li>
+        <li class="list-group-item list-group">
+          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+          Task four
+        </li>
+        <li class="list-group-item list-group">
+          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+          Task five
+        </li>
+        <li class="list-group-item list-group">
+          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+          Task six
+        </li>
+      </ol>
     </div>
-    
   </div>
-
+  <div class="mt-auto py-3 fixed-bottom">
+    <div class="container">
+      <form class="form-inline g-3">
+        <div class="input-group">
+          <input name="new-task" type="text" class="form-control" placeholder="New task.." required>
+          <button class="btn btn-primary" type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
